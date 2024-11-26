@@ -1,0 +1,9 @@
+{% extends "./base.html" %}
+{% block title %}Signin Account{% endblock %}
+{% block body %}
+<form action="" method="POST" class="col-md-4 p-5 d-flex flex-column  items-center gap-3">
+    <input type="text" name="username" placeholder="Enter Username" class="form-control" required>
+    <input type="text" name="password" placeholder="Enter Password" class="form-control" required>
+    <button type="submit" class="btn btn-primary btn-sm">submit</button>
+</form>
+{% endblock %}
