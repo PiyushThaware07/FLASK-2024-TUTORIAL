@@ -4,7 +4,6 @@ app = Flask(__name__)
 app.secret_key = "private_key"
 
 
-
 # REGISTER ROUTES
 from routes.cookies import cookiesBP
 from routes.home import homeBP
